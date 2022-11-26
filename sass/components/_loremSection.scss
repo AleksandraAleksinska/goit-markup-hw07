@@ -1,0 +1,25 @@
+.loremItem {
+    width: 270px;
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 25px 102px;
+
+    &__icon {
+        display: flex;
+        justify-items: center;
+        text-align: center;
+      }
+      
+    &__title {
+        font-weight: 700;
+        line-height: 1.14;
+        margin-bottom: 10px;
+      }
+    &__desc {
+        line-height: 1.71;
+        color: var(--grey-primary);
+      }
+  }
+  

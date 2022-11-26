@@ -1,0 +1,110 @@
+.footer {
+    background-color: var(--grey-secondary);
+    color: var(--white);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &--flex {
+        display: flex;
+        align-items: baseline;
+        gap: 70px;
+      }
+  }
+
+  .footerContact {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 20px;
+
+    &__item {
+        line-height: 1.71;
+        color: var(--white);
+        opacity: 60%;
+
+        &--address-style{
+            font-style: inherit;
+            opacity: 0.9;
+          }
+      }
+      
+  }
+ 
+ 
+  .footerSocials {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      background-color: var(--blue);
+    }
+
+    &__header {
+        margin-bottom: 20px;
+      }
+    &__icon {
+        fill: currentColor;
+        display: block;
+      }
+  }
+ 
+  .footerForm {
+    position: relative;
+    width: 570px;
+
+    &__label {
+      font-weight: 700;
+      font-size: 1.17em;
+    }
+
+    &__button {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 200px;
+        height: 50px;
+        display: flex;
+        padding: 10px 28px 10px 42px;
+        align-items: center;
+        gap: 24px;
+      }
+    &__icon {
+        fill: currentColor;
+
+        &:hover,
+        &:focus {
+            fill: var(--white);
+        }
+      }
+      
+    &__input {
+        width: 358px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        padding-left: 16px;
+        margin-top: 18px;
+        background-color: transparent;
+        color: var(--white);
+        outline: none;
+
+        &::placeholder{
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.6);
+            line-height: 1.25;
+          }
+      }
+      }
+      
+ 

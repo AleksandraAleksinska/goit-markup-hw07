@@ -1,0 +1,1 @@
+.clientLogo{width:170px;height:92px;border:1px solid currentColor;border-radius:4px;color:#afb1b8;display:flex;transition-property:color;transition-duration:250ms;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.clientLogo:hover,.clientLogo:focus{color:var(--blue)}.clientLogo__icon{fill:currentColor}
