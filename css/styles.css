@@ -344,13 +344,13 @@ button {
   transform: translateY(100%);
 }
 
-.link {
+.animation {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link:hover,
-.link:focus {
+.animation:hover,
+.animation:focus {
   color: var(--blue);
 }
 
@@ -434,14 +434,14 @@ button {
 .headerNav__list {
   gap: 50px;
 }
-.headerNav__link {
+.headerNav__item {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: inherit;
   position: relative;
 }
-.headerNav__link::after {
+.headerNav__item::after {
   content: "";
   position: absolute;
   bottom: -29px;
@@ -452,8 +452,8 @@ button {
   width: 0;
   transition-property: width;
 }
-.headerNav__link:focus:after,
-.headerNav__link:active:after {
+.headerNav__item:focus:after,
+.headerNav__item:active:after {
   width: 100%;
   
 }
